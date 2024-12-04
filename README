@@ -1,0 +1,9 @@
+hugo new site My_Blog_Site
+cd My_Blog_Site
+git init
+git submodule add --depth=1 https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod
+echo "theme = 'PaperMod'" >> hugo.toml
+hugo server
+
+https://adityatelange.github.io/hugo-PaperMod/posts/papermod/papermod-faq/
+https://arduin.io/papermod-tweaks/
